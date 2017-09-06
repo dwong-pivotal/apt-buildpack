@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 # bin/release <build-dir>
 
-echo -e "---\ndefault_process_types:\n  web: exit 1"
+ls -al
+
+echo -e "---\ndefault_process_types:\n  web: \$HOME/boot.sh"
